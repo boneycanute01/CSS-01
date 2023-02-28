@@ -1,24 +1,44 @@
-/* Element selector */
-h1 
+.heading1
 {
-    color:red;
+    color: aquamarine;
+    background-color: red;
+    text-align: justify;
+    text-align-last: right;
 }
 
-/* ID selector */
-#first
+.heading2
 {
-    color: green;
+    direction: rtl;  
+    unicode-bidi: bidi-override;
+    vertical-align: sub;
 }
 
-/* class selector */
-.second
+.anchor
 {
-    color: blue;
+    text-decoration-line:none;
+    color: black;
 }
 
-/* Universal Selector */
-*
+.heading3
 {
-  text-align: center;   
+    /* 
+    
+    text-decoration-line:overline;
+    text-decoration-color: violet;
+    text-decoration-style:dotted;
+    text-decoration-thickness: 10px;
+    
+    */
+    text-decoration: overline green dashed 5px;
 }
 
+.para1
+{
+    text-transform: capitalize;
+    /* capitalize / lowercase / uppercase / none */
+    /* text-indent: 120px;
+    letter-spacing: 5px;
+    line-height: 50px;
+    word-spacing: 50px; */
+    white-space: nowrap;
+}
