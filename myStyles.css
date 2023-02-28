@@ -1,0 +1,24 @@
+/* Element selector */
+h1 
+{
+    color:red;
+}
+
+/* ID selector */
+#first
+{
+    color: green;
+}
+
+/* class selector */
+.second
+{
+    color: blue;
+}
+
+/* Universal Selector */
+*
+{
+  text-align: center;   
+}
+
